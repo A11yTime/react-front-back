@@ -1,0 +1,363 @@
+{
+    "status": "success",
+    "data": [
+      {
+        "product_id": "12345",
+        "name": "Wireless Bluetooth Headphones",
+        "category": "Electronics",
+        "price": 99.99,
+        "currency": "USD",
+        "description": "High-quality wireless Bluetooth headphones with noise cancellation, long battery life, and a comfortable fit.",
+        "manufacturer": "SoundX",
+        "rating": 4.5,
+        "reviews_count": 214,
+        "available_stock": 350,
+        "image_url": "https://api.example.com/images/products/12345.jpg",
+        "variants": [
+          {
+            "variant_id": "12345-01",
+            "color": "Black",
+            "additional_price": 0.00
+          },
+          {
+            "variant_id": "12345-02",
+            "color": "White",
+            "additional_price": 5.00
+          }
+        ],
+        "dimensions": {
+          "width": 15,
+          "height": 7,
+          "depth": 3,
+          "unit": "cm"
+        },
+        "shipping_info": {
+          "weight": 0.25,
+          "unit": "kg",
+          "shipping_cost": 10.00,
+          "delivery_time": "5-7 business days"
+        },
+        "related_products": [
+          {
+            "product_id": "67890",
+            "name": "Portable Bluetooth Speaker",
+            "price": 49.99,
+            "image_url": "https://api.example.com/images/products/67890.jpg"
+          },
+          {
+            "product_id": "11223",
+            "name": "Noise Cancelling Earbuds",
+            "price": 79.99,
+            "image_url": "https://api.example.com/images/products/11223.jpg"
+          }
+        ]
+      },
+      {
+        "product_id": "23456",
+        "name": "Smartphone X Pro",
+        "category": "Electronics",
+        "price": 899.99,
+        "currency": "USD",
+        "description": "A high-end smartphone with 5G support, 128GB storage, and an AMOLED display.",
+        "manufacturer": "TechFusion",
+        "rating": 4.7,
+        "reviews_count": 180,
+        "available_stock": 200,
+        "image_url": "https://api.example.com/images/products/23456.jpg",
+        "variants": [
+          {
+            "variant_id": "23456-01",
+            "color": "Midnight Black",
+            "additional_price": 0.00
+          },
+          {
+            "variant_id": "23456-02",
+            "color": "Sky Blue",
+            "additional_price": 25.00
+          }
+        ],
+        "dimensions": {
+          "width": 7.5,
+          "height": 15.5,
+          "depth": 0.8,
+          "unit": "cm"
+        },
+        "shipping_info": {
+          "weight": 0.18,
+          "unit": "kg",
+          "shipping_cost": 12.00,
+          "delivery_time": "3-5 business days"
+        },
+        "related_products": [
+          {
+            "product_id": "34567",
+            "name": "Smartphone Case",
+            "price": 29.99,
+            "image_url": "https://api.example.com/images/products/34567.jpg"
+          },
+          {
+            "product_id": "45678",
+            "name": "Wireless Charger",
+            "price": 19.99,
+            "image_url": "https://api.example.com/images/products/45678.jpg"
+          }
+        ]
+      },
+      {
+        "product_id": "34567",
+        "name": "Smartwatch Z",
+        "category": "Electronics",
+        "price": 199.99,
+        "currency": "USD",
+        "description": "A stylish smartwatch with fitness tracking, heart rate monitoring, and built-in GPS.",
+        "manufacturer": "FitTrack",
+        "rating": 4.2,
+        "reviews_count": 350,
+        "available_stock": 120,
+        "image_url": "https://api.example.com/images/products/34567.jpg",
+        "variants": [
+          {
+            "variant_id": "34567-01",
+            "color": "Black",
+            "additional_price": 0.00
+          },
+          {
+            "variant_id": "34567-02",
+            "color": "Rose Gold",
+            "additional_price": 10.00
+          }
+        ],
+        "dimensions": {
+          "width": 4.5,
+          "height": 4.5,
+          "depth": 1.2,
+          "unit": "cm"
+        },
+        "shipping_info": {
+          "weight": 0.3,
+          "unit": "kg",
+          "shipping_cost": 8.00,
+          "delivery_time": "5-7 business days"
+        },
+        "related_products": [
+          {
+            "product_id": "56789",
+            "name": "Fitness Tracker Band",
+            "price": 49.99,
+            "image_url": "https://api.example.com/images/products/56789.jpg"
+          },
+          {
+            "product_id": "67890",
+            "name": "Smartphone X Pro",
+            "price": 899.99,
+            "image_url": "https://api.example.com/images/products/23456.jpg"
+          }
+        ]
+      },
+      {
+        "product_id": "45678",
+        "name": "Wireless Charging Pad",
+        "category": "Electronics",
+        "price": 39.99,
+        "currency": "USD",
+        "description": "A fast wireless charging pad for smartphones, up to 15W charging speed.",
+        "manufacturer": "ChargeMate",
+        "rating": 4.6,
+        "reviews_count": 270,
+        "available_stock": 500,
+        "image_url": "https://api.example.com/images/products/45678.jpg",
+        "variants": [
+          {
+            "variant_id": "45678-01",
+            "color": "White",
+            "additional_price": 0.00
+          },
+          {
+            "variant_id": "45678-02",
+            "color": "Black",
+            "additional_price": 0.00
+          }
+        ],
+        "dimensions": {
+          "width": 10.5,
+          "height": 2.5,
+          "depth": 10.5,
+          "unit": "cm"
+        },
+        "shipping_info": {
+          "weight": 0.2,
+          "unit": "kg",
+          "shipping_cost": 5.00,
+          "delivery_time": "3-5 business days"
+        },
+        "related_products": [
+          {
+            "product_id": "23456",
+            "name": "Smartphone X Pro",
+            "price": 899.99,
+            "image_url": "https://api.example.com/images/products/23456.jpg"
+          },
+          {
+            "product_id": "11223",
+            "name": "Noise Cancelling Earbuds",
+            "price": 79.99,
+            "image_url": "https://api.example.com/images/products/11223.jpg"
+          }
+        ]
+      },
+      {
+        "product_id": "56789",
+        "name": "Laptop Stand Pro",
+        "category": "Accessories",
+        "price": 29.99,
+        "currency": "USD",
+        "description": "Ergonomic laptop stand with adjustable height and cooling fans for optimal performance.",
+        "manufacturer": "CoolStand",
+        "rating": 4.3,
+        "reviews_count": 150,
+        "available_stock": 75,
+        "image_url": "https://api.example.com/images/products/56789.jpg",
+        "variants": [
+          {
+            "variant_id": "56789-01",
+            "color": "Silver",
+            "additional_price": 0.00
+          },
+          {
+            "variant_id": "56789-02",
+            "color": "Black",
+            "additional_price": 0.00
+          }
+        ],
+        "dimensions": {
+          "width": 25.0,
+          "height": 5.0,
+          "depth": 25.0,
+          "unit": "cm"
+        },
+        "shipping_info": {
+          "weight": 1.0,
+          "unit": "kg",
+          "shipping_cost": 7.00,
+          "delivery_time": "4-6 business days"
+        },
+        "related_products": [
+          {
+            "product_id": "12345",
+            "name": "Wireless Bluetooth Headphones",
+            "price": 99.99,
+            "image_url": "https://api.example.com/images/products/12345.jpg"
+          },
+          {
+            "product_id": "23456",
+            "name": "Smartphone X Pro",
+            "price": 899.99,
+            "image_url": "https://api.example.com/images/products/23456.jpg"
+          }
+        ]
+      },
+      {
+        "product_id": "67890",
+        "name": "Portable Bluetooth Speaker",
+        "category": "Electronics",
+        "price": 49.99,
+        "currency": "USD",
+        "description": "A portable Bluetooth speaker with 12 hours of battery life and deep bass.",
+        "manufacturer": "SoundWave",
+        "rating": 4.4,
+        "reviews_count": 130,
+        "available_stock": 250,
+        "image_url": "https://api.example.com/images/products/67890.jpg",
+        "variants": [
+          {
+            "variant_id": "67890-01",
+            "color": "Blue",
+            "additional_price": 0.00
+          },
+          {
+            "variant_id": "67890-02",
+            "color": "Red",
+            "additional_price": 0.00
+          }
+        ],
+        "dimensions": {
+          "width": 14.0,
+          "height": 7.0,
+          "depth": 7.0,
+          "unit": "cm"
+        },
+        "shipping_info": {
+          "weight": 0.6,
+          "unit": "kg",
+          "shipping_cost": 10.00,
+          "delivery_time": "3-5 business days"
+        },
+        "related_products": [
+          {
+            "product_id": "34567",
+            "name": "Smartwatch Z",
+            "price": 199.99,
+            "image_url": "https://api.example.com/images/products/34567.jpg"
+          },
+          {
+            "product_id": "11223",
+            "name": "Noise Cancelling Earbuds",
+            "price": 79.99,
+            "image_url": "https://api.example.com/images/products/11223.jpg"
+          }
+        ]
+      },
+      {
+        "product_id": "78901",
+        "name": "Fitness Tracker Pro",
+        "category": "Wearables",
+        "price": 59.99,
+        "currency": "USD",
+        "description": "Track your daily activity, steps, and heart rate with this sleek fitness band.",
+        "manufacturer": "FitTech",
+        "rating": 4.5,
+        "reviews_count": 90,
+        "available_stock": 400,
+        "image_url": "https://api.example.com/images/products/78901.jpg",
+        "variants": [
+          {
+            "variant_id": "78901-01",
+            "color": "Black",
+            "additional_price": 0.00
+          },
+          {
+            "variant_id": "78901-02",
+            "color": "Pink",
+            "additional_price": 0.00
+          }
+        ],
+        "dimensions": {
+          "width": 3.5,
+          "height": 1.2,
+          "depth": 1.0,
+          "unit": "cm"
+        },
+        "shipping_info": {
+          "weight": 0.05,
+          "unit": "kg",
+          "shipping_cost": 5.00,
+          "delivery_time": "5-7 business days"
+        },
+        "related_products": [
+          {
+            "product_id": "34567",
+            "name": "Smartwatch Z",
+            "price": 199.99,
+            "image_url": "https://api.example.com/images/products/34567.jpg"
+          },
+          {
+            "product_id": "56789",
+            "name": "Laptop Stand Pro",
+            "price": 29.99,
+            "image_url": "https://api.example.com/images/products/56789.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  

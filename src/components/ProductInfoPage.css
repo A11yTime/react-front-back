@@ -1,0 +1,103 @@
+/* ProductInfoPage.css */
+
+/* Container for the whole page */
+.product-info-page {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb; /* Light background to improve contrast */
+    min-height: 100vh;
+  }
+  
+  /* Card styling */
+  .product-card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect on card */
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Product image styling */
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Product title */
+  .product-card h1 {
+    font-size: 2rem;
+    color: #2c3e50; /* Darker color for the title */
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Price section */
+  .product-card .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c; /* Price in red for attention */
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraph styling for product description and details */
+  .product-card p {
+    font-size: 1.1rem;
+    color: #34495e; /* Improved contrast with darker text */
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  /* Strong labels for emphasis */
+  .product-card p strong {
+    font-weight: bold;
+    color: #2c3e50; /* Dark color for the strong text */
+  }
+  
+  /* Product detail sections */
+  .product-card .category,
+  .product-card .rating,
+  .product-card .stock,
+  .product-card .manufacturer {
+    background-color: #ecf0f1; /* Light background for sections */
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Stock/Manufacturer/Rating section text */
+  .product-card .category,
+  .product-card .rating,
+  .product-card .stock,
+  .product-card .manufacturer {
+    color: #2c3e50;
+  }
+  
+  /* Error/Loading message styles */
+  .product-info-page .loading,
+  .product-info-page .error {
+    font-size: 1.2rem;
+    color: #e74c3c; /* Red color for errors */
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
